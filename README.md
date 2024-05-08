@@ -14,15 +14,14 @@ YouTube Video Scraper is a Python application built using the Tkinter GUI librar
 
 Before you can run the YouTube Video Scraper, you need to have the following installed:
 
-- Python 3.6 or higher
+- Python 3.7 or higher
 - Pip (Python package installer)
 
 This application also requires several Python libraries, which can be installed using pip:
 
 ```
-pip install google-api-python-client
-pip install youtube-transcript-api
-pip install tkinter
+pip install google-api-python-client==2.127.0
+pip install youtube-transcript-api==0.6.2
 ```
 
 ## Installation
@@ -30,7 +29,7 @@ pip install tkinter
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/youtube-video-scraper.git
+git clone https://github.com/mofasuhu/youtube-video-scraper.git
 cd youtube-video-scraper
 ```
 
